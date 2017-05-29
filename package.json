@@ -1,0 +1,30 @@
+{
+  "name": "react-redux-template",
+  "version": "1.0.0",
+  "description": "A template for new React+Redux apps",
+  "main": "src/index.jsx",
+  "author": "Eric Nething",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.5",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "redux-devtools": "^3.4.0",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "scripts": {
+    "build": "webpack --config=webpack.config.js",
+    "watch": "webpack --watch --config=webpack.config.js",
+    "dev": "webpack-dev-server --config=webpack.config.js"
+  }
+}
